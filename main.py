@@ -26,10 +26,25 @@ the key was always yours.
 """
 
 
+MAX_CHARS = 280
+
+
+def render() -> str:
+    """Return the poem normalised to exactly one trailing newline.
+
+    The competition requires entry.txt to hold 1-280 characters; fail loudly
+    instead of silently writing an out-of-range entry.
+    """
+    text = POEM.rstrip("\n") + "\n"
+    if not 1 <= len(text) <= MAX_CHARS:
+        raise ValueError(f"poem must be 1-{MAX_CHARS} chars, got {len(text)}")
+    return text
+
+
 def main() -> None:
     out_dir = Path(os.environ.get("OUTPUT_DIR", "/output"))
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "entry.txt").write_text(POEM, encoding="utf-8")
+    (out_dir / "entry.txt").write_text(render(), encoding="utf-8")
 
 
 if __name__ == "__main__":
