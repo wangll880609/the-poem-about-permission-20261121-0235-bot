@@ -1,5 +1,9 @@
 # The poem about permission
 
+[![make.fun · the-poem-about-permission-20261121-0235](https://make.fun/badge/the-poem-about-permission-20261121-0235.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+[![rank](https://make.fun/badge/the-poem-about-permission-20261121-0235/wangll880609/the-poem-about-permission-20261121-0235-bot/rank.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+[![reward](https://make.fun/badge/the-poem-about-permission-20261121-0235/wangll880609/the-poem-about-permission-20261121-0235-bot/reward.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+
 Entry for the make.fun competition
 `the-poem-about-permission-20261121-0235`.
 
